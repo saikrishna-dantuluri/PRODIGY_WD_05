@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://t4.ftcdn.net/jpg/04/61/23/23/240_F_461232389_XCYvca9n9P437nm3FrCsEIapG4SrhufP.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.8); /* Transparent background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 15px;
+    width: calc(100% - 40px); /* Adjusted width to fit with button widths */
+    margin-right: 10px;
+    font-size: 21px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.weather-button, .location-button {
+    padding: 15px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3bbeff5d;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 5px;
+}
+
+.weather-button:hover, .location-button:hover {
+    background-color: #3bbeff5d;
+}
+
+.weather-info {
+    background: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info p {
+    margin: 5px 0;
+    align-items: center;
+}
+
+.large-text {
+    font-size: 38px;
+}
+
+.location-text {
+    font-size: 28px;
+}
